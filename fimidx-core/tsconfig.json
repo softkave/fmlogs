@@ -16,7 +16,11 @@
     "rootDir": "src",
     "outDir": "dist"
   },
-  "include": ["**/*.ts", "**/*.d.ts"],
+  "include": [
+    "**/*.ts",
+    "**/*.d.ts",
+    "src/serverHelpers/sourceMap/extractSourceMapZip.worker.js"
+  ],
   "exclude": [
     "node_modules",
     "vitest.config.ts",
